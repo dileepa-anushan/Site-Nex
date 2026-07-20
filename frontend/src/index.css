@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-steel-blue: #1E3A5F;
+  --color-concrete: #4B5563;
+  --color-concrete-light: #E5E7EB;
+  --color-amber: #D97706;
+  --color-white: #FFFFFF;
+}
+
+@layer base {
+  body {
+    @apply bg-concrete-light text-concrete font-sans;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
