@@ -1,0 +1,39 @@
+﻿MongoDB is connected
+Connected to MongoDB for Phase 3 Verification.
+Γ£à Task created successfully.
+Γ£à High Priority Issue registered on this Task.
+Γ£à INTERCEPTED: Site Engineer correctly blocked from requesting completion due to active High Priority issue.
+node : Error: Task 
+completion was not 
+requested
+At line:1 char:1
++ node 
+verify_phase3.js > 
+out.txt 2>&1; type 
+out.txt
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (Error: Task c   
+ ompletion was not     
+requested:String)     
+[], RemoteExceptio    n
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+    at TaskService.appr
+oveCompletion (file:///
+C:/Users/User/Desktop/S
+iteNex/backend/services
+/taskService.js:157:46)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:105:5)
+    at async verifyHigh
+PriorityBlocker (file:/
+//C:/Users/User/Desktop
+/SiteNex/backend/verify
+_phase3.js:63:13)
