@@ -1,0 +1,3 @@
+MongoDB is connected
+Server started on port 5000
+^C
